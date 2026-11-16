@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Kopi Asli Petaling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>☕ Kapling Banjar 12</h2>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="produk.html">Produk</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</header>
+
+<main class="container">
+
+<h1>Hubungi Kami</h1>
+
+<h2>Informasi Usaha</h2>
+
+<p><b>Nama:</b> Sumardi</p>
+<p><b>Alamat:</b> Petaling Banjar 12, Bangka Belitung</p>
+<p><b>WhatsApp:</b> 0812-7861-1661</p>
+<p><b>Instagram:</b> kapling_kopiaslipetaling</p>
+
+<h2>Formulir Kontak</h2>
+
+<form action="#" method="post">
+
+    <label for="nama">Nama Lengkap:</label>
+    <input type="text" id="nama" name="nama"
+           required minlength="3" maxlength="60">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"
+           required>
+
+    <label for="hp">Nomor HP:</label>
+    <input type="tel" id="hp" name="hp"
+           pattern="[0-9]{10,13}"
+           title="Masukkan 10 sampai 13 angka"
+           required>
+
+    <label for="keperluan">Keperluan:</label>
+    <select id="keperluan" name="keperluan" required>
+        <option value="">Pilih Keperluan</option>
+        <option value="pemesanan">Pemesanan Produk</option>
+        <option value="informasi">Informasi Produk</option>
+        <option value="kerjasama">Kerja Sama</option>
+    </select>
+
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan" name="pesan"
+              minlength="10" maxlength="500"
+              required></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+
+</form>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Kopi Asli Petaling</p>
+</footer>
+
+</body>
+</html>
